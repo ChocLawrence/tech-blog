@@ -6,6 +6,7 @@
 
 ### Deployment
 
+https://tech-blog-uy12.onrender.com/
   
 ### User Actions
 
@@ -53,7 +54,7 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
 ```
 
-### Installation STEPS
+### Deployment Steps [LOCAL]
 
 - Download project
 - Install npm packages
@@ -66,7 +67,31 @@ DB_PW='XXX'
 ```
 
 - Run npm start
-- Visit port 3001
+- Visit port 3001 at http://localhost:3001
+
+
+### Deployment Steps [ONLINE]
+
+## https://www.clever-cloud.com/
+
+- Database mysql creation
+- Select DEV Free package
+- Get database connection details
+
+## https://render.com/
+
+- Link to github repo
+- Create webservice
+- Input DB credentials from CLOUD CLEVER
+
+```text
+DB_HOST='XXXX'
+DB_NAME='XXXX'
+DB_USER='XXXX'
+DB_PW='XXXX'
+```
+
+- Deploy application
 
 
 ### Screenshot
@@ -82,3 +107,5 @@ Incorrect Password
 
 Dashboard
 ![](images/screenshot4.png)
+
+------------------------

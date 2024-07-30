@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3001;
 
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
-const expirationTime = 1 * 60 * 1000;
+const expirationTime = 2 * 60 * 1000;
 
 const sessionSettings = {
   secret: 'techblog',

@@ -75,6 +75,10 @@
     padding: 0 1%;
   }
 
+  .navbar {
+    padding-top: 20px;
+  }
+
   .tech-blog,.navbar {
     background-color: #230D0D;
   }
@@ -82,6 +86,10 @@
   .navbar-item,.default-text  {
     color: #D9EAD3;
     font-size: x-large;
+  }
+
+  .navbar-item:hover {
+    color:#230D0D !important;
   }
 
   .text-white {
@@ -146,7 +154,7 @@
 
   .tech-blog-text {
     color: #230D0D;
-    font-size: xx-large;
+    font-size: 32px;
   }
 
   .owner-post {
