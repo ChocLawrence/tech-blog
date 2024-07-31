@@ -7,7 +7,7 @@ const postData = [
         user_id: 1
     },
     {
-        title: "Studying in America is challenging, studies reveal",
+        title: "Studying tech in America is challenging, studies reveal",
         post_content: "What I would like to understand is how the economy affects the targets of students, and how the ecosytem fairs.",
         user_id: 2
 

@@ -57,7 +57,7 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ### Deployment Steps [LOCAL]
 
 - Download project
-- Install npm packages
+- Install npm packages with ```text npm i```
 - Add a .env file to the root of project with details of database
 
 ```text
@@ -66,9 +66,24 @@ DB_USER='root'
 DB_PW='XXX'
 ```
 
+- Seed default user tables
+```text
+node seeds/index.js
+```
+
 - Run npm start
 - Visit port 3001 at http://localhost:3001
 
+```text
+USER 1
+username: jon_snow
+password: 1234567
+
+USER 2
+username: martin_bull
+password: 1234567
+```
+- Surf
 
 ### Deployment Steps [ONLINE]
 
